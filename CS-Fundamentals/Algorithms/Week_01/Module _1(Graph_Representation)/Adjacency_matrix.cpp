@@ -13,7 +13,7 @@ int main()
         adj_mat[i][i] = 1;
     }
 
-    for (int i = 0; i < e; i++)
+    while (e--)
     {
         int a, b;
         cin >> a >> b;
