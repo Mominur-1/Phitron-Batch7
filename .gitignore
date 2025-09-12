@@ -1,0 +1,25 @@
+# Ignore compiled binaries
+**/*.exe
+*.exe
+*.out
+*.o
+
+# Ignore editor and IDE settings
+.vscode/
+*.code-workspace
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore backup and swap files
+*~
+*.swp
+
+# Ignore test outputs or generated files
+test_output/
