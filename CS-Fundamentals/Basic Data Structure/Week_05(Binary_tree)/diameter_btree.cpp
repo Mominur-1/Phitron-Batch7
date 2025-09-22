@@ -1,3 +1,5 @@
+// https://www.naukri.com/code360/problems/diameter-of-the-binary-tree_920552
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -25,7 +27,9 @@ class Solution
     int height(TreeNode<int> *root)
     {
         if (!root)
+        {
             return 0;
+        }
 
         int leftHeight = height(root->left);
         int rightHeight = height(root->right);
